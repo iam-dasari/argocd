@@ -5,7 +5,7 @@ metadata:
   labels:
     app: my-app
 spec:
-  replicas: 3 # Desired number of Pod replicas
+  replicas: 5 # Desired number of Pod replicas
   selector:
     matchLabels:
       app: my-app
